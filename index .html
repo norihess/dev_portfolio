@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- Favicons -->
+    <link
+      rel="logo"
+      sizes="180x180"
+      href="assets/icons/logo.svg"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/logo.svg"
+    />
+
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Nori Hess | Web Developer</title>
+  </head>
+
+  <body>
+		<nav>
+      <h1><a href ="index.html">Nori Hess</a></h1>
+      <ul class="navigation">
+        <li><a href="index.html" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="projects.html" class="nav-link">Projects</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+				<li><a href="http://noriindesign.com/resume.pdf" class="nav-link">Resume</a></li>
+      </ul>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+      </button>
+</nav>
+
+<section class="hero" id="about">
+	<img
+		src="assets/img/baby.jpg"
+		alt="nori_logo"
+		loading="lazy"
+		class="hero-img"
+	/>
+	<div class="bio animate__animated animate__shakeX">
+		<h2 class="bio-title">About Me</h2>
+		<p class="bio-text">
+			Hello, my name is Nori Hess and i'm a web developer with a background of design.
+			I believe in designing innovative interactive experiences using the power of discourse in minimalistic design.
+			I enjoy problem solving and finding solutions to accessible design and development.
+		</p>
+	</div>
+</section>
+<br>
+<br>
+<br>
+<section class="more-about">
+	<h2>More About Me</h2>
+	<p>
+		Hello, my name is Nori Hess and i'm a web developer with a background of design. 
+		My past roles taught me how to identify and find creative solutions while working with multidisciplinary methodologies.
+	</p>
+	<p>
+		I'm traditioning into development becasue I have a strong affinity for problem solving and developing apps, websites, ect beyond looks.
+		I love a good challange and full-stack development is going to keep my on my toes and my mind sharp. My goal is to become a full-stack developer,
+		who happens to be able to design as well. I believe being able to know the methodologies behind UI/UX and development will help me be successful in the future.
+	</p>
+	<p>
+		I'm currently living in the Denver area and I'm ready to tackle the workforce!
+	</p>
+</section>
+<br>
+<br>
+<br>
+<section class="skills" id="skills">
+	<h2 class="skill-header">My Top Skills</h2>
+
+	<div class="skills-wrapper">
+		<div class="first-set animate__animated animate__pulse">
+			<img
+				src="assets/icons/html5.svg"
+				alt=""
+				loading="lazy"
+				class="icon icon-card"
+			/>
+			<img
+				src="assets/icons/css.svg"
+				alt=""
+				loading="lazy"
+				class="icon icon-card"
+			/>
+			<img
+				src="assets/icons/js.svg"
+				alt=""
+				loading="lazy"
+				class="icon icon-card"
+			/>
+		</div>
+
+		<div class="second-set animate__animated animate__pulse">
+			<img
+				src="assets/icons/BootStrap.svg"
+				alt=""
+				loading="lazy"
+				class="icon icon-card"
+			/>
+			<img
+				src="assets/icons/React-icon.svg"
+				alt=""
+				loading="lazy"
+				class="icon icon-card"
+			/>
+			<img
+				src="assets/icons/git.png"
+				alt=""
+				loading="lazy"
+				class="icon icon-card"
+			/>
+		</div>
+	</div>
+</section>
+<br>
+<br>
+<br>
+<section class="projects" id="projects">
+	<h2 class="projects-title">Some of my Recent Projects</h2>
+	<div class="projects-container">
+		<div class="project-container project-card">
+			<img
+				src="assets/icons/movie.svg"
+				alt="MyFlx Angular App"
+				loading="lazy"
+				class="project-pic"
+			/>
+			<h3 class="project-title">MyFlx Angular App</h3>
+			<p class="project-details">
+				The aim of this project is to build the client-side for an application called myFlix using Angular based on its existing server-side code (REST API and database), with supporting documentation.
+			</p>
+			<h4>Technologies Used</h4>
+			<p class ="tech">Angular and Angular Material</p>
+			<a href="https://github.com/norihess/myFlix-Angular-client" target="_blank" class="project-link">Check it Out</a>
+		</div>
+		<div class="project-container project-card">
+			<img
+				src="assets/img/chatA.png"
+				alt="React Native | Chat App"
+				loading="lazy"
+				class="project-pic"
+			/>
+			<h3 class="project-title">Chat App</h3>
+			<p class="project-details">
+				The aim of this project is to build a chat app for mobile devices using React Native. 
+				The app provides users with a chat interface and options to share images and their location.
+			</p>
+			<h4>Technologies Used</h4>
+			<p class ="tech">React Native, Expo, Cloud Firestore, Google Cloud Storage</p>
+			<a href="https://github.com/norihess/chat-app" target="_blank" class="project-link">Check it Out</a>
+		</div>
+		<div class="project-container project-card">
+			<img
+				src="assets/img/poke2.png"
+				alt="Pokemon App"
+				loading="lazy"
+				class="project-pic"
+			/>
+			<h3 class="project-title">Pokemon App</h3>
+			<p class="project-details">
+				The aim of this project is to build a Pokedex app that will retrieve information from an API to display on a usable app.
+				This is a small application that loads Pokémon from an external API and allows to display their details.
+			</p>
+			<h4>Technologies Used</h4>
+			<p class ="tech">Bootstrap, JavaScript, JQuery</p>
+			<a href="https://github.com/norihess/simple_js_app" target="_blank" class="project-link">Check it Out</a>
+		</div>
+	</section>
+
+
+<!-- <div class="socials">
+	<a href="https://www.linkedin.com/in/nori-hess-977771200/" target="_blank"
+		><img
+			src="assets/icons/linkedin_icon4.svg"
+			alt="Linkedin"
+			loading="lazy"
+			class="socicon"
+	/></a>
+	<a href="https://github.com/norihess" target="_blank"
+		><img src="assets/icons/github_icon4.svg" alt="Github" class="socicon"
+	/></a> -->
+
+	<i class="scroll-up" id="scroll-up"
+	><img
+		src="assets/icons/icons8-scroll-up.gif"
+		class="socicon up-arrow"
+		alt="scroll-up"
+/></i>
+
+
+<div id ="footer" style="text-align: center; padding: 2rem;"" >
+	<p class="copy">&copy; Copyright 2022</p>
+	<p class="copy">
+		Built with &#x2661; by
+		<a href="https://github.com/norihess" target="_blank"
+			>Nori Hess</a
+		>
+	</p>
+</div>
+<!--- index.js file with all the logic for btns-->
+	<script src="index.js"></script>
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

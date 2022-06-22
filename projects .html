@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- Favicons -->
+    <link
+      rel="logo"
+      sizes="180x180"
+      href="assets/icons/logo.svg"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/logo.svg"
+    />
+
+    <!-- Animate CSS CDN -->
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    /> -->
+    <title>Nori Hess | Web Developer</title>
+  </head>
+
+  <body>
+		<body>
+			<nav>
+				<h1><a href ="index.html">Nori Hess</a></h1>
+				<ul class="navigation">
+					<li><a href="index.html" class="nav-link">About</a></li>
+					<li><a href="index.html" class="nav-link">Skills</a></li>
+					<li><a href="projects.html" class="nav-link">Projects</a></li>
+					<li><a href="contact.html" class="nav-link">Contact</a></li>
+					<li><a href="http://noriindesign.com/resume.pdf" class="nav-link">Resume</a></li>
+				</ul>
+				<button class="burger-menu" id="burger-menu">
+					<ion-icon class="bars" name="menu-outline"></ion-icon>
+				</button>
+	</nav>
+
+<!-- row 1 -->
+<section class="projects" id="projects">
+	<h2 class="projects-title">Some of my Recent Projects</h2>
+	<div class="projects-container">
+		<div class="project-container project-card">
+			<img
+				src="assets/icons/movie.svg"
+				alt="MyFlx Angular App"
+				loading="lazy"
+				class="project-pic"
+			/>
+			<h3 class="project-title">MyFlix Angular App</h3>
+			<p class="project-details">
+				The aim of this project is to build the client-side for an application called myFlix using Angular based on its existing server-side code (REST API and database), with supporting documentation.
+			</p>
+			<h4>Technologies Used</h4>
+			<p class ="tech">Angular and Angular Material</p>
+			<a href="https://github.com/norihess/myFlix-Angular-client" target="_blank" class="project-link">Check it Out</a>
+		</div>
+		<div class="project-container project-card">
+			<img
+				src="assets/img/chatA.png"
+				alt="React Native | Chat App"
+				loading="lazy"
+				class="project-pic"
+			/>
+			<h3 class="project-title">Chat App</h3>
+			<p class="project-details">
+				The aim of this project is to build a chat app for mobile devices using React Native. 
+				The app provides users with a chat interface and options to share images and their location.
+			</p>
+			<h4>Technologies Used</h4>
+			<p class ="tech">React Native, Expo, Cloud Firestore, Google Cloud Storage</p>
+			<a href="https://github.com/norihess/chat-app" target="_blank" class="project-link">Check it Out</a>
+		</div>
+		<div class="project-container project-card">
+			<img
+				src="assets/img/poke2.png"
+				alt="Pokemon App"
+				loading="lazy"
+				class="project-pic"
+			/>
+			<h3 class="project-title">Pokemon App</h3>
+			<p class="project-details">
+				The aim of this project is to build a Pokedex app that will retrieve information from an API to display on a usable app.
+				This is a small application that loads Pokémon from an external API and allows to display their details.
+			</p>
+			<h4>Technologies Used</h4>
+			<p class ="tech">Bootstrap, JavaScript, JQuery</p>
+			<a href="https://github.com/norihess/simple_js_app" target="_blank" class="project-link">Check it Out</a>
+		</div>
+	</section>
+<!-- row 2 -->
+	<section class="projects" id="projects" style ="display:flex; flex-direction: row;">
+		<div class="project-container project-card" style="height: auto;">
+			<img
+				src="assets/img/react_mf.jpg"
+				alt="MyFlix React App"
+				loading="lazy"
+				class="project-pic"
+			/>
+			<h3 class="project-title">MyFlix React App</h3>
+			<p class="project-details">
+				This API allows a users to access a database to receive information on movies such as the movies' directors and genre. 
+				The user can sign up, update personal information and save/delete favorite movies to/from his personal profile.
+			</p>
+			<h4>Technologies Used</h4>
+			<p class ="tech">Node.js, Express, MongoDB, Mongoose, Postman</p>
+			<a href="https://github.com/norihess/movie_api" target="_blank" class="project-link">Check it Out</a>
+		</div>
+		<div class="project-container project-card">
+			<img
+				src="assets/img/meet2.png"
+				alt="React App: myFlix"
+				loading="lazy"
+				class="project-pic"
+			/>
+			<h3 class="project-title">Meet App</h3>
+			<p class="project-details">
+				The goal of this project is to build a serverless, progressive web application (PWA) with React using a test-driven development (TDD) technique. 
+				The application uses the Google Calendar API to fetch upcoming events.
+			</p>
+			<h4>Technologies Used</h4>
+			<p class ="tech">Node.js, Express, MongoDB, Mongoose, Postman</p>
+			<a href="https://github.com/norihess/myFlix-client" target="_blank" class="project-link">Check it Out</a>
+		</div>
+		
+		<div class="project-container project-card">
+			<img
+				src="assets/img/todo.png"
+				alt="Simple toDoList"
+				loading="lazy"
+				class="project-pic"
+			/>
+			<h3 class="project-title">Simple toDoList</h3>
+			<p class="project-details">
+				This is a small web application that allows users to add items to a to do list, cross out items, delete items and sort the items on the list.
+			</p>
+			<h4>Technologies Used</h4>
+			<p class ="tech">Bootstrap, JavaScript, JQuery</p>
+			<a href="https://github.com/norihess/to-do-list-app" target="_blank" class="project-link">Check it Out</a>
+		</div>
+
+</section>
+<!-- row 3 -->
+<section class="projects" id="projects" style ="display:flex; flex-direction: row;">
+	<div class="project-container project-card">
+		<img
+			src="assets/img/port2.jpg"
+			alt="Portfolio"
+			loading="lazy"
+			class="project-pic"
+		/>
+		<h3 class="project-title">Portfolio</h3>
+		<p class="project-details">
+			This is the original link to my development portfolio for the introduction task for introduction to frontend development.
+		</p>
+		<h4>Technologies Used</h4>
+		<p class ="tech">HTML and CSS</p>
+		<a href="https://github.com/norihess/Portfolio-Website" target="_blank" class="project-link">Check it Out</a>
+	</div>
+	
+	<div class="project-container project-card">
+		<img
+			src="assets/img/todo.png"
+			alt="Simple toDoList"
+			loading="lazy"
+			class="project-pic"
+		/>
+		<h3 class="project-title">Simple toDoList</h3>
+		<p class="project-details">
+			This is a small web application that allows users to add items to a to do list, cross out items, delete items and sort the items on the list
+		</p>
+		<h4>Technologies Used</h4>
+		<p class ="tech">Bootstrap, JavaScript, JQuery</p>
+		<a href="https://github.com/norihess/to-do-list-app" target="_blank" class="project-link">Check it Out</a>
+	</div>
+
+	<div class="project-container project-card">
+		<img
+			src="assets/img/ss_mf.jpg"
+			alt=" Server-side: myFlix"
+			loading="lazy"
+			class="project-pic"
+		/>
+		<h3 class="project-title"> Server-side: myFlix</h3>
+		<p class="project-details">
+			The web application is based on its existing server-side code MyFlix (REST API and database).
+		</p>
+		<h4>Technologies Used</h4>
+		<p class ="tech">React, React Redux, Bootstrap, Axios, and Parcel</p>
+		<a href="https://github.com/norihess/myFlix-client" target="_blank" class="project-link">Check it Out</a>
+	</div>
+</div>
+</section>
+
+<i class="scroll-up" id="scroll-up"
+><img
+	src="assets/icons/icons8-scroll-up.gif"
+	class="socicon up-arrow"
+	alt="scroll-up"
+/></i>
+
+<div id ="footer" style="text-align: center; padding: 2rem;">
+	<p class="copy">&copy; Copyright 2022</p>
+	<p class="copy">
+		Built with &#x2661; by
+		<a href="https://github.com/norihess" target="_blank"
+			>Nori Hess</a
+		>
+	</p>
+</div>
+<!--- index.js file with all the logic for btns-->
+<script src="index.js"></script>
+<!-- Website scripts -->
+<!-- <script src="assets/js/app.js"></script> -->
+
+<!-- Ion icons scripts -->
+<script
+	type="module"
+	src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+></script>
+<script
+	nomodule
+	src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
